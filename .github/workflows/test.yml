@@ -16,7 +16,7 @@ jobs:
     steps:
     #Verificar el repositorio
       - name: Checkout repository
-        uses: action/checkout@v2
+        uses: actions/checkout@v2
 
     #Instalar python
       - name: Set up python
